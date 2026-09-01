@@ -1,12 +1,12 @@
-# Medical Aid ML Projects
-These projects were completed as part of a postgraduate data analytics module. The work is based on a fictional South African medical aid provider seeking to use data analytics and machine learning to improve business decision-making and customer outcomes. Publicly available datasets from Kaggle and scraped customer reviews were used to simulate real-world business scenarios.
+# Medical Aid Data Analytics Projects
+The work is based on a fictional South African medical aid provider seeking to use data analytics and machine learning to improve business decision-making and customer outcomes. Publicly available (syntehtic) datasets from Kaggle and scraped Google reviews were used to simulate real-world business scenarios.
 
 Each notebook follows a data analytics workflow including:
-- Exploratory data analysis
+- Exploratory data analysis (statistical analysis and visualisation)
 - Data cleaning and preprocessing
 - Feature engineering and selection
 - Hyperparameter tuning
-- Model training and testing
+- ML Model training and testing
 - Model evaluation and performance analysis
 
 ---
@@ -21,11 +21,11 @@ Each notebook follows a data analytics workflow including:
 - **Techniques:** Random Forest Classifier (and Balanced RFC), cross validation, hyperparameter tuning, classification performance evaluation
 - **Dataset:** Kaggle Cancer Risk Factors Dataset
 
-## Project 3. Text Modelling & Sentiment Analysis
+## Project 3. Natural Language Processing - Text Modelling & Sentiment Analysis
 - **Business Scenario:** The medical aid provider has observed an increase in negative online customer reviews and wants to better understand customer experiences. Scraped medical aid reviews were analysed using natural language processing to identify common discussion topics through topic modelling and to determine overall customer sentiment using sentiment analysis.
 - **Technique:**
-  - Topic Modelling: text preprocessing, TF-IDF/ Count Vectorisation, LDA
-  - Sentiment Analysis: Multinomial Naive Bayes, Logistic Regression, hyperparameter tuning, model evaluation
+  - *Topic Modelling:* text preprocessing, TF-IDF/ Count Vectorisation, LDA
+  - *Sentiment Analysis:* Multinomial Naive Bayes, Logistic Regression, hyperparameter tuning, model evaluation
 - **Dataset:** medical_aid_google-reviews.csv
 
 ---
